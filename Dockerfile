@@ -9,7 +9,7 @@ ARG STRAPI_VERSION=5.38.0
 
 # Pick an LTS Node version supported by Strapi (v20/v22/v24). Strapi docs list 20/22/24. :contentReference[oaicite:3]{index=3}
 # Node 22 is a common default for production at time of writing.
-ARG NODE_MAJOR=22
+ARG NODE_MAJOR=24
 
 ENV DEBIAN_FRONTEND=noninteractive \
     NODE_ENV=production \
