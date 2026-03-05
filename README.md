@@ -1,9 +1,9 @@
 # Strapi Runtime (Ubuntu 24.04)
 
-A production-ready **Strapi runtime base image** built on **Ubuntu 24.04 LTS**, with **Node.js LTS** and a pinned **Strapi CLI** version.
+A production-ready **Strapi runtime base image** built on **Ubuntu 24.04 LTS**, with **Node.js 24.x LTS** and a pinned **Strapi CLI** version.
 
 - Base OS: Ubuntu 24.04 LTS
-- Node.js: 22.x (configurable)
+- Node.js: 24.14.0 (configurable)
 - Strapi: 5.38.0 (configurable)
 - Runs as non-root user (`strapi`)
 - Uses `tini` for proper signal handling
@@ -49,8 +49,8 @@ docker run --rm -p 1337:1337 my-strapi-app:prod
 
 | Tag | OS | Node | Strapi | Notes |
 |-----|----|------|--------|------|
-| `5.38-ubuntu24-node22` | Ubuntu 24.04 | 22.x | 5.38.0 | Recommended |
-| `5.38` | Ubuntu 24.04 | 22.x | 5.38.0 | Convenience tag |
+| `5.38-ubuntu24-node22` | Ubuntu 24.04 | 24.x | 5.38.0 | Recommended |
+| `5.38` | Ubuntu 24.04 | 24.x | 5.38.0 | Convenience tag |
 
 > See the Dockerfile build args below if you want other combinations.
 
@@ -93,7 +93,7 @@ Your application image should persist:
 docker run --rm -it \
   -p 1337:1337 \
   -v "$PWD":/srv/app \
-  yourdockerhub/strapi:5.38-ubuntu24-node22 \
+  yourdockerhub/strapi:5.38-ubuntu24-node24 \
   strapi develop
 ```
 
@@ -102,7 +102,7 @@ docker run --rm -it \
 ## Build Arguments (for maintainers)
 
 - `UBUNTU_BASE` (default: `ubuntu:24.04`)
-- `NODE_MAJOR` (default: `22`)
+- `NODE_MAJOR` (default: `24`)
 - `STRAPI_VERSION` (default: `5.38.0`)
 
 Example:
@@ -110,8 +110,8 @@ Example:
 ```bash
 docker build \
   --build-arg STRAPI_VERSION=5.38.0 \
-  --build-arg NODE_MAJOR=22 \
-  -t yourdockerhub/strapi:5.38-ubuntu24-node22 .
+  --build-arg NODE_MAJOR=24 \
+  -t yourdockerhub/strapi:5.38-ubuntu24-node24 .
 ```
 
 ---
