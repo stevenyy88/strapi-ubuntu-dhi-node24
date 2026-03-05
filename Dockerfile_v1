@@ -3,8 +3,6 @@
 ARG UBUNTU_BASE=ubuntu:24.04
 ARG STRAPI_VERSION=5.38.0
 ARG NODE_MAJOR=24
-# Pin npm to a known version (set to latest you want). Example shown:
-ARG NPM_VERSION=11.11.0
 
 # -------------------------
 # Stage 1: builder
@@ -13,20 +11,14 @@ FROM ${UBUNTU_BASE} AS builder
 
 ARG STRAPI_VERSION
 ARG NODE_MAJOR
-ARG NPM_VERSION
-
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Patch OS packages + install build deps
-RUN apt-get update \
- && apt-get upgrade -y \
- && apt-get install -y --no-install-recommends \
-      ca-certificates curl gnupg \
-      python3 make g++ build-essential \
-      libvips-dev \
- && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates curl gnupg \
+    python3 make g++ build-essential \
+    libvips-dev \
+  && rm -rf /var/lib/apt/lists/*
 
-# Install Node.js from NodeSource
 RUN mkdir -p /etc/apt/keyrings \
  && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key \
     | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
@@ -36,47 +28,35 @@ RUN mkdir -p /etc/apt/keyrings \
  && apt-get install -y --no-install-recommends nodejs \
  && rm -rf /var/lib/apt/lists/*
 
-# Upgrade npm (patch npm CVEs / bugs)
-RUN npm install -g npm@${NPM_VERSION} --no-audit --no-fund \
- && npm --version
-
-# Make npm network behavior more reliable (optional but helpful)
+# Make npm installs more reliable and smaller
 RUN npm config set registry https://registry.npmjs.org/ \
- && npm config set audit false \
  && npm config set fund false \
- && npm config set fetch-retries 5 \
- && npm config set fetch-retry-mintimeout 20000 \
- && npm config set fetch-retry-maxtimeout 120000 \
- && npm config set fetch-timeout 300000 \
- && npm config set maxsockets 10
+ && npm config set audit false
 
-# Install Strapi CLI pinned (omit dev deps)
+# Install Strapi CLI without dev deps (important)
 RUN --mount=type=cache,target=/root/.npm \
-    npm install -g @strapi/strapi@${STRAPI_VERSION} --omit=dev --no-audit --no-fund
+    npm install -g @strapi/strapi@${STRAPI_VERSION} --omit=dev --no-audit --no-fund \
+ && npm cache clean --force
 
 # -------------------------
-# Stage 2: runtime
+# Stage 2: runtime (small)
 # -------------------------
 FROM ${UBUNTU_BASE} AS runtime
 
 ARG STRAPI_VERSION
 ARG NODE_MAJOR
-ARG NPM_VERSION
-
 ENV DEBIAN_FRONTEND=noninteractive \
     NODE_ENV=production \
     STRAPI_VERSION=${STRAPI_VERSION}
 
-# Patch OS packages + install minimal runtime deps
-RUN apt-get update \
- && apt-get upgrade -y \
- && apt-get install -y --no-install-recommends \
-      ca-certificates curl gnupg \
-      tini \
-      libvips \
- && rm -rf /var/lib/apt/lists/*
+# Only runtime deps
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates curl gnupg \
+    tini \
+    libvips \
+  && rm -rf /var/lib/apt/lists/*
 
-# Install Node.js runtime
+# Node runtime
 RUN mkdir -p /etc/apt/keyrings \
  && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key \
     | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
@@ -86,26 +66,22 @@ RUN mkdir -p /etc/apt/keyrings \
  && apt-get install -y --no-install-recommends nodejs \
  && rm -rf /var/lib/apt/lists/*
 
-# Upgrade npm in runtime too (so the shipped image has patched npm)
-RUN npm install -g npm@${NPM_VERSION} --no-audit --no-fund \
- && npm --version
-
-# Enable corepack (optional)
 RUN corepack enable
 
 # Copy Strapi CLI from builder
-# On Ubuntu + NodeSource, globals typically live here:
 COPY --from=builder /usr/lib/node_modules /usr/lib/node_modules
 COPY --from=builder /usr/bin/strapi /usr/bin/strapi
+# Some distros place globals in /usr/local; if yours does, copy these too:
+#COPY --from=builder /usr/local/lib/node_modules /usr/local/lib/node_modules
+#COPY --from=builder /usr/local/bin/strapi /usr/local/bin/strapi
 
-# Non-root user + app dir
+# Non-root user
 RUN useradd -m -u 10001 -s /bin/bash strapi \
  && mkdir -p /srv/app \
  && chown -R strapi:strapi /srv/app
 
 WORKDIR /srv/app
 USER strapi
-
 EXPOSE 1337
 
 ENTRYPOINT ["/usr/bin/tini", "--"]
