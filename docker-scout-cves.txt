@@ -1,0 +1,1174 @@
+
+
+## Overview
+
+                   │             Analyzed Image             
+───────────────────┼────────────────────────────────────────
+ Target            │  stevenyy/strapi:5.38-ubuntu24-node24  
+   digest          │  bcea0dab4f4b                          
+   platform        │ linux/arm64                            
+   vulnerabilities │    4C    27H   105M    32L             
+   size            │ 275 MB                                 
+   packages        │ 1898                                   
+
+
+## Packages and Vulnerabilities
+
+   3C    12H    21M     1L  stdlib 1.20.12
+pkg:golang/stdlib@1.20.12
+
+    ✗ CRITICAL CVE-2025-68121
+      https://scout.docker.com/v/CVE-2025-68121?s=golang&n=stdlib&t=golang&vr=%3C1.24.13
+      Affected range : <1.24.13 
+      Fixed version  : 1.24.13  
+    
+    ✗ CRITICAL CVE-2024-24790
+      https://scout.docker.com/v/CVE-2024-24790?s=golang&n=stdlib&t=golang&vr=%3C1.21.11
+      Affected range : <1.21.11 
+      Fixed version  : 1.21.11  
+    
+    ✗ CRITICAL CVE-2025-22871
+      https://scout.docker.com/v/CVE-2025-22871?s=golang&n=stdlib&t=golang&vr=%3C1.23.8
+      Affected range : <1.23.8 
+      Fixed version  : 1.23.8  
+    
+    ✗ HIGH CVE-2025-61729
+      https://scout.docker.com/v/CVE-2025-61729?s=golang&n=stdlib&t=golang&vr=%3C1.24.11
+      Affected range : <1.24.11 
+      Fixed version  : 1.24.11  
+    
+    ✗ HIGH CVE-2025-61726
+      https://scout.docker.com/v/CVE-2025-61726?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ HIGH CVE-2025-61725
+      https://scout.docker.com/v/CVE-2025-61725?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-61723
+      https://scout.docker.com/v/CVE-2025-61723?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-58188
+      https://scout.docker.com/v/CVE-2025-58188?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-58187
+      https://scout.docker.com/v/CVE-2025-58187?s=golang&n=stdlib&t=golang&vr=%3C1.24.9
+      Affected range : <1.24.9 
+      Fixed version  : 1.24.9  
+    
+    ✗ HIGH CVE-2024-34158
+      https://scout.docker.com/v/CVE-2024-34158?s=golang&n=stdlib&t=golang&vr=%3C1.22.7
+      Affected range : <1.22.7 
+      Fixed version  : 1.22.7  
+    
+    ✗ HIGH CVE-2024-34156
+      https://scout.docker.com/v/CVE-2024-34156?s=golang&n=stdlib&t=golang&vr=%3C1.22.7
+      Affected range : <1.22.7 
+      Fixed version  : 1.22.7  
+    
+    ✗ HIGH CVE-2024-24791
+      https://scout.docker.com/v/CVE-2024-24791?s=golang&n=stdlib&t=golang&vr=%3C1.21.12
+      Affected range : <1.21.12 
+      Fixed version  : 1.21.12  
+    
+    ✗ HIGH CVE-2024-24784
+      https://scout.docker.com/v/CVE-2024-24784?s=golang&n=stdlib&t=golang&vr=%3C1.21.8
+      Affected range : <1.21.8 
+      Fixed version  : 1.21.8  
+    
+    ✗ HIGH CVE-2023-45288
+      https://scout.docker.com/v/CVE-2023-45288?s=golang&n=stdlib&t=golang&vr=%3C1.21.9
+      Affected range : <1.21.9 
+      Fixed version  : 1.21.9  
+    
+    ✗ HIGH CVE-2022-30635
+      https://scout.docker.com/v/CVE-2022-30635?s=golang&n=stdlib&t=golang&vr=%3C1.22.7
+      Affected range : <1.22.7 
+      Fixed version  : 1.22.7  
+    
+    ✗ MEDIUM CVE-2025-4673
+      https://scout.docker.com/v/CVE-2025-4673?s=golang&n=stdlib&t=golang&vr=%3C1.23.10
+      Affected range : <1.23.10 
+      Fixed version  : 1.23.10  
+    
+    ✗ MEDIUM CVE-2025-61728
+      https://scout.docker.com/v/CVE-2025-61728?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ MEDIUM CVE-2025-61727
+      https://scout.docker.com/v/CVE-2025-61727?s=golang&n=stdlib&t=golang&vr=%3C1.24.11
+      Affected range : <1.24.11 
+      Fixed version  : 1.24.11  
+    
+    ✗ MEDIUM CVE-2025-47906
+      https://scout.docker.com/v/CVE-2025-47906?s=golang&n=stdlib&t=golang&vr=%3C1.23.12
+      Affected range : <1.23.12 
+      Fixed version  : 1.23.12  
+    
+    ✗ MEDIUM CVE-2023-45290
+      https://scout.docker.com/v/CVE-2023-45290?s=golang&n=stdlib&t=golang&vr=%3C1.21.8
+      Affected range : <1.21.8 
+      Fixed version  : 1.21.8  
+    
+    ✗ MEDIUM CVE-2024-45341
+      https://scout.docker.com/v/CVE-2024-45341?s=golang&n=stdlib&t=golang&vr=%3C1.22.11
+      Affected range : <1.22.11 
+      Fixed version  : 1.22.11  
+    
+    ✗ MEDIUM CVE-2024-45336
+      https://scout.docker.com/v/CVE-2024-45336?s=golang&n=stdlib&t=golang&vr=%3C1.22.11
+      Affected range : <1.22.11 
+      Fixed version  : 1.22.11  
+    
+    ✗ MEDIUM CVE-2024-24783
+      https://scout.docker.com/v/CVE-2024-24783?s=golang&n=stdlib&t=golang&vr=%3C1.21.8
+      Affected range : <1.21.8 
+      Fixed version  : 1.21.8  
+    
+    ✗ MEDIUM CVE-2025-0913
+      https://scout.docker.com/v/CVE-2025-0913?s=golang&n=stdlib&t=golang&vr=%3C1.23.10
+      Affected range : <1.23.10 
+      Fixed version  : 1.23.10  
+    
+    ✗ MEDIUM CVE-2024-24789
+      https://scout.docker.com/v/CVE-2024-24789?s=golang&n=stdlib&t=golang&vr=%3C1.21.11
+      Affected range : <1.21.11 
+      Fixed version  : 1.21.11  
+    
+    ✗ MEDIUM CVE-2024-24785
+      https://scout.docker.com/v/CVE-2024-24785?s=golang&n=stdlib&t=golang&vr=%3C1.21.8
+      Affected range : <1.21.8 
+      Fixed version  : 1.21.8  
+    
+    ✗ MEDIUM CVE-2025-61730
+      https://scout.docker.com/v/CVE-2025-61730?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ MEDIUM CVE-2025-61724
+      https://scout.docker.com/v/CVE-2025-61724?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58189
+      https://scout.docker.com/v/CVE-2025-58189?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58186
+      https://scout.docker.com/v/CVE-2025-58186?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58185
+      https://scout.docker.com/v/CVE-2025-58185?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-47912
+      https://scout.docker.com/v/CVE-2025-47912?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58183
+      https://scout.docker.com/v/CVE-2025-58183?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2024-34155
+      https://scout.docker.com/v/CVE-2024-34155?s=golang&n=stdlib&t=golang&vr=%3C1.22.7
+      Affected range : <1.22.7 
+      Fixed version  : 1.22.7  
+    
+    ✗ MEDIUM CVE-2023-45289
+      https://scout.docker.com/v/CVE-2023-45289?s=golang&n=stdlib&t=golang&vr=%3C1.21.8
+      Affected range : <1.21.8 
+      Fixed version  : 1.21.8  
+    
+    ✗ MEDIUM CVE-2025-22866
+      https://scout.docker.com/v/CVE-2025-22866?s=golang&n=stdlib&t=golang&vr=%3C1.22.12
+      Affected range : <1.22.12 
+      Fixed version  : 1.22.12  
+    
+    ✗ LOW CVE-2025-22873
+      https://scout.docker.com/v/CVE-2025-22873?s=golang&n=stdlib&t=golang&vr=%3C1.23.9
+      Affected range : <1.23.9 
+      Fixed version  : 1.23.9  
+    
+
+   1C     6H     9M     0L  stdlib 1.23.12
+pkg:golang/stdlib@1.23.12
+
+    ✗ CRITICAL CVE-2025-68121
+      https://scout.docker.com/v/CVE-2025-68121?s=golang&n=stdlib&t=golang&vr=%3C1.24.13
+      Affected range : <1.24.13 
+      Fixed version  : 1.24.13  
+    
+    ✗ HIGH CVE-2025-61729
+      https://scout.docker.com/v/CVE-2025-61729?s=golang&n=stdlib&t=golang&vr=%3C1.24.11
+      Affected range : <1.24.11 
+      Fixed version  : 1.24.11  
+    
+    ✗ HIGH CVE-2025-61726
+      https://scout.docker.com/v/CVE-2025-61726?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ HIGH CVE-2025-61725
+      https://scout.docker.com/v/CVE-2025-61725?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-61723
+      https://scout.docker.com/v/CVE-2025-61723?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-58188
+      https://scout.docker.com/v/CVE-2025-58188?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ HIGH CVE-2025-58187
+      https://scout.docker.com/v/CVE-2025-58187?s=golang&n=stdlib&t=golang&vr=%3C1.24.9
+      Affected range : <1.24.9 
+      Fixed version  : 1.24.9  
+    
+    ✗ MEDIUM CVE-2025-61728
+      https://scout.docker.com/v/CVE-2025-61728?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ MEDIUM CVE-2025-61727
+      https://scout.docker.com/v/CVE-2025-61727?s=golang&n=stdlib&t=golang&vr=%3C1.24.11
+      Affected range : <1.24.11 
+      Fixed version  : 1.24.11  
+    
+    ✗ MEDIUM CVE-2025-61730
+      https://scout.docker.com/v/CVE-2025-61730?s=golang&n=stdlib&t=golang&vr=%3C1.24.12
+      Affected range : <1.24.12 
+      Fixed version  : 1.24.12  
+    
+    ✗ MEDIUM CVE-2025-61724
+      https://scout.docker.com/v/CVE-2025-61724?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58189
+      https://scout.docker.com/v/CVE-2025-58189?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58186
+      https://scout.docker.com/v/CVE-2025-58186?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58185
+      https://scout.docker.com/v/CVE-2025-58185?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-47912
+      https://scout.docker.com/v/CVE-2025-47912?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+    ✗ MEDIUM CVE-2025-58183
+      https://scout.docker.com/v/CVE-2025-58183?s=golang&n=stdlib&t=golang&vr=%3C1.24.8
+      Affected range : <1.24.8 
+      Fixed version  : 1.24.8  
+    
+
+   0C     3H     0M     0L  minimatch 10.1.2
+pkg:npm/minimatch@10.1.2
+
+    ✗ HIGH CVE-2026-26996 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2026-26996?s=github&n=minimatch&t=npm&vr=%3E%3D10.0.0%2C%3C10.2.1
+      Affected range : >=10.0.0                                                        
+                     : <10.2.1                                                         
+      Fixed version  : 10.2.1                                                          
+      CVSS Score     : 8.7                                                             
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+    
+    ✗ HIGH CVE-2026-27904 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2026-27904?s=github&n=minimatch&t=npm&vr=%3E%3D10.0.0%2C%3C10.2.3
+      Affected range : >=10.0.0                                     
+                     : <10.2.3                                      
+      Fixed version  : 10.2.3                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ HIGH CVE-2026-27903 [Inefficient Algorithmic Complexity]
+      https://scout.docker.com/v/CVE-2026-27903?s=github&n=minimatch&t=npm&vr=%3E%3D10.0.0%2C%3C10.2.3
+      Affected range : >=10.0.0                                     
+                     : <10.2.3                                      
+      Fixed version  : 10.2.3                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+
+   0C     2H     0M     0L  tar 7.5.7
+pkg:npm/tar@7.5.7
+
+    ✗ HIGH GHSA-qffp-2rhf-9h96 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/GHSA-qffp-2rhf-9h96?s=github&n=tar&t=npm&vr=%3C%3D7.5.9
+      Affected range : <=7.5.9                                                         
+      Fixed version  : 7.5.10                                                          
+      CVSS Score     : 8.2                                                             
+      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L 
+    
+    ✗ HIGH CVE-2026-26960 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2026-26960?s=github&n=tar&t=npm&vr=%3C7.5.8
+      Affected range : <7.5.8                                       
+      Fixed version  : 7.5.8                                        
+      CVSS Score     : 7.1                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N 
+    
+
+   0C     2H     0M     0L  minimatch 10.2.2
+pkg:npm/minimatch@10.2.2
+
+    ✗ HIGH CVE-2026-27904 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2026-27904?s=github&n=minimatch&t=npm&vr=%3E%3D10.0.0%2C%3C10.2.3
+      Affected range : >=10.0.0                                     
+                     : <10.2.3                                      
+      Fixed version  : 10.2.3                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ HIGH CVE-2026-27903 [Inefficient Algorithmic Complexity]
+      https://scout.docker.com/v/CVE-2026-27903?s=github&n=minimatch&t=npm&vr=%3E%3D10.0.0%2C%3C10.2.3
+      Affected range : >=10.0.0                                     
+                     : <10.2.3                                      
+      Fixed version  : 10.2.3                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+
+   0C     1H     0M     0L  tar 7.5.9
+pkg:npm/tar@7.5.9
+
+    ✗ HIGH GHSA-qffp-2rhf-9h96 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/GHSA-qffp-2rhf-9h96?s=github&n=tar&t=npm&vr=%3C%3D7.5.9
+      Affected range : <=7.5.9                                                         
+      Fixed version  : 7.5.10                                                          
+      CVSS Score     : 8.2                                                             
+      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L 
+    
+
+   0C     1H     0M     0L  koa 2.16.3
+pkg:npm/koa@2.16.3
+
+    ✗ HIGH CVE-2026-27959 [Improper Input Validation]
+      https://scout.docker.com/v/CVE-2026-27959?s=github&n=koa&t=npm&vr=%3C2.16.4
+      Affected range : <2.16.4                                      
+      Fixed version  : 2.16.4                                       
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N 
+    
+
+   0C     0H    27M     0L  imagemagick 8:6.9.12.98+dfsg1-5.2build2
+pkg:deb/ubuntu/imagemagick@8%3A6.9.12.98%2Bdfsg1-5.2build2?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2026-25986
+      https://scout.docker.com/v/CVE-2026-25986?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-25983
+      https://scout.docker.com/v/CVE-2026-25983?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-25968
+      https://scout.docker.com/v/CVE-2026-25968?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-25897
+      https://scout.docker.com/v/CVE-2026-25897?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-23876
+      https://scout.docker.com/v/CVE-2026-23876?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-57807
+      https://scout.docker.com/v/CVE-2025-57807?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-53101
+      https://scout.docker.com/v/CVE-2025-53101?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-53014
+      https://scout.docker.com/v/CVE-2025-53014?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-26284
+      https://scout.docker.com/v/CVE-2026-26284?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2026-25987
+      https://scout.docker.com/v/CVE-2026-25987?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2026-25898
+      https://scout.docker.com/v/CVE-2026-25898?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-57803
+      https://scout.docker.com/v/CVE-2025-57803?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-55298
+      https://scout.docker.com/v/CVE-2025-55298?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-55154
+      https://scout.docker.com/v/CVE-2025-55154?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2026-26066
+      https://scout.docker.com/v/CVE-2026-26066?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2026-25796
+      https://scout.docker.com/v/CVE-2026-25796?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2026-25795
+      https://scout.docker.com/v/CVE-2026-25795?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-69204
+      https://scout.docker.com/v/CVE-2025-69204?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-68618
+      https://scout.docker.com/v/CVE-2025-68618?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-62171
+      https://scout.docker.com/v/CVE-2025-62171?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-55212
+      https://scout.docker.com/v/CVE-2025-55212?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-53019
+      https://scout.docker.com/v/CVE-2025-53019?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-43965
+      https://scout.docker.com/v/CVE-2025-43965?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N 
+    
+    ✗ MEDIUM CVE-2020-25664
+      https://scout.docker.com/v/CVE-2020-25664?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.1                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H 
+    
+    ✗ MEDIUM CVE-2025-55160
+      https://scout.docker.com/v/CVE-2025-55160?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.3                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L 
+    
+    ✗ MEDIUM CVE-2025-66628
+      https://scout.docker.com/v/CVE-2025-66628?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2025-55005
+      https://scout.docker.com/v/CVE-2025-55005?s=ubuntu&n=imagemagick&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H    24M    14L  hdf5 1.10.10+repack-3.1ubuntu4
+pkg:deb/ubuntu/hdf5@1.10.10%2Brepack-3.1ubuntu4?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2019-9152
+      https://scout.docker.com/v/CVE-2019-9152?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2019-9151
+      https://scout.docker.com/v/CVE-2019-9151?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-2153
+      https://scout.docker.com/v/CVE-2025-2153?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2018-11205
+      https://scout.docker.com/v/CVE-2018-11205?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.1                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-6516
+      https://scout.docker.com/v/CVE-2025-6516?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-2310
+      https://scout.docker.com/v/CVE-2025-2310?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-2309
+      https://scout.docker.com/v/CVE-2025-2309?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2025-2308
+      https://scout.docker.com/v/CVE-2025-2308?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ MEDIUM CVE-2019-8397
+      https://scout.docker.com/v/CVE-2019-8397?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2019-8396
+      https://scout.docker.com/v/CVE-2019-8396?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2018-17432
+      https://scout.docker.com/v/CVE-2018-17432?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2017-17507
+      https://scout.docker.com/v/CVE-2017-17507?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-7069
+      https://scout.docker.com/v/CVE-2025-7069?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-7067
+      https://scout.docker.com/v/CVE-2025-7067?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-2926
+      https://scout.docker.com/v/CVE-2025-2926?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-2924
+      https://scout.docker.com/v/CVE-2025-2924?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-2915
+      https://scout.docker.com/v/CVE-2025-2915?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-2913
+      https://scout.docker.com/v/CVE-2025-2913?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.3                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L 
+    
+    ✗ MEDIUM CVE-2025-2912
+      https://scout.docker.com/v/CVE-2025-2912?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.3                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L 
+    
+    ✗ MEDIUM CVE-2025-6750
+      https://scout.docker.com/v/CVE-2025-6750?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2025-6269
+      https://scout.docker.com/v/CVE-2025-6269?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2025-2923
+      https://scout.docker.com/v/CVE-2025-2923?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2025-2914
+      https://scout.docker.com/v/CVE-2025-2914?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-32609
+      https://scout.docker.com/v/CVE-2024-32609?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-13867
+      https://scout.docker.com/v/CVE-2018-13867?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2021-46242
+      https://scout.docker.com/v/CVE-2021-46242?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2020-18494
+      https://scout.docker.com/v/CVE-2020-18494?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2018-16438
+      https://scout.docker.com/v/CVE-2018-16438?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2018-14031
+      https://scout.docker.com/v/CVE-2018-14031?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2025-6857
+      https://scout.docker.com/v/CVE-2025-6857?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2025-6856
+      https://scout.docker.com/v/CVE-2025-6856?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2025-6818
+      https://scout.docker.com/v/CVE-2025-6818?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.8                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2021-46244
+      https://scout.docker.com/v/CVE-2021-46244?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2021-46243
+      https://scout.docker.com/v/CVE-2021-46243?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2018-17439
+      https://scout.docker.com/v/CVE-2018-17439?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2025-6858
+      https://scout.docker.com/v/CVE-2025-6858?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2025-6817
+      https://scout.docker.com/v/CVE-2025-6817?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2025-6816
+      https://scout.docker.com/v/CVE-2025-6816?s=ubuntu&n=hdf5&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     6M     0L  nodejs 24.14.0-1nodesource1
+pkg:deb/ubuntu/nodejs@24.14.0-1nodesource1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-23166
+      https://scout.docker.com/v/CVE-2025-23166?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2025-23085
+      https://scout.docker.com/v/CVE-2025-23085?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-27983
+      https://scout.docker.com/v/CVE-2024-27983?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-27982
+      https://scout.docker.com/v/CVE-2024-27982?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-22020
+      https://scout.docker.com/v/CVE-2024-22020?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-22018
+      https://scout.docker.com/v/CVE-2024-22018?s=ubuntu&n=nodejs&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     3M     1L  libmatio 1.5.26-1build3
+pkg:deb/ubuntu/libmatio@1.5.26-1build3?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-2338
+      https://scout.docker.com/v/CVE-2025-2338?s=ubuntu&n=libmatio&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-2337
+      https://scout.docker.com/v/CVE-2025-2337?s=ubuntu&n=libmatio&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2025-50343
+      https://scout.docker.com/v/CVE-2025-50343?s=ubuntu&n=libmatio&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-20019
+      https://scout.docker.com/v/CVE-2019-20019?s=ubuntu&n=libmatio&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     2M     1L  openjpeg2 2.5.0-2ubuntu0.4
+pkg:deb/ubuntu/openjpeg2@2.5.0-2ubuntu0.4?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2023-39329
+      https://scout.docker.com/v/CVE-2023-39329?s=ubuntu&n=openjpeg2&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2023-39328
+      https://scout.docker.com/v/CVE-2023-39328?s=ubuntu&n=openjpeg2&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2019-6988
+      https://scout.docker.com/v/CVE-2019-6988?s=ubuntu&n=openjpeg2&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     2M     0L  libde265 1.0.15-1build3
+pkg:deb/ubuntu/libde265@1.0.15-1build3?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2024-38950
+      https://scout.docker.com/v/CVE-2024-38950?s=ubuntu&n=libde265&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+    ✗ MEDIUM CVE-2024-38949
+      https://scout.docker.com/v/CVE-2024-38949?s=ubuntu&n=libde265&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     2M     0L  jpeg-xl 0.7.0-10.2ubuntu6.1
+pkg:deb/ubuntu/jpeg-xl@0.7.0-10.2ubuntu6.1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2023-0645
+      https://scout.docker.com/v/CVE-2023-0645?s=ubuntu&n=jpeg-xl&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 9.1                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H 
+    
+    ✗ MEDIUM CVE-2023-35790
+      https://scout.docker.com/v/CVE-2023-35790?s=ubuntu&n=jpeg-xl&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 7.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     1M     1L  gnutls28 3.8.3-1.1ubuntu3.4
+pkg:deb/ubuntu/gnutls28@3.8.3-1.1ubuntu3.4?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-14831
+      https://scout.docker.com/v/CVE-2025-14831?s=ubuntu&n=gnutls28&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3C3.8.3-1.1ubuntu3.5
+      Affected range : <3.8.3-1.1ubuntu3.5 
+      Fixed version  : 3.8.3-1.1ubuntu3.5  
+    
+    ✗ LOW CVE-2025-9820
+      https://scout.docker.com/v/CVE-2025-9820?s=ubuntu&n=gnutls28&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3C3.8.3-1.1ubuntu3.5
+      Affected range : <3.8.3-1.1ubuntu3.5 
+      Fixed version  : 3.8.3-1.1ubuntu3.5  
+    
+
+   0C     0H     1M     1L  gnupg2 2.4.4-2ubuntu17.4
+pkg:deb/ubuntu/gnupg2@2.4.4-2ubuntu17.4?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-68972
+      https://scout.docker.com/v/CVE-2025-68972?s=ubuntu&n=gnupg2&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 4.7                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N 
+    
+    ✗ LOW CVE-2022-3219
+      https://scout.docker.com/v/CVE-2022-3219?s=ubuntu&n=gnupg2&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 3.3                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L 
+    
+
+   0C     0H     1M     0L  markdown-it 13.0.2
+pkg:npm/markdown-it@13.0.2
+
+    ✗ MEDIUM CVE-2026-2327 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2026-2327?s=github&n=markdown-it&t=npm&vr=%3E%3D13.0.0%2C%3C14.1.1
+      Affected range : >=13.0.0                                                            
+                     : <14.1.1                                                             
+      Fixed version  : 14.1.1                                                              
+      CVSS Score     : 5.5                                                                 
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P 
+    
+
+   0C     0H     1M     0L  esbuild 0.21.5
+pkg:npm/esbuild@0.21.5
+
+    ✗ MEDIUM GHSA-67mh-4wv8-2f99 [Origin Validation Error]
+      https://scout.docker.com/v/GHSA-67mh-4wv8-2f99?s=github&n=esbuild&t=npm&vr=%3C%3D0.24.2
+      Affected range : <=0.24.2                                     
+      Fixed version  : 0.25.0                                       
+      CVSS Score     : 5.3                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N 
+    
+
+   0C     0H     1M     0L  ajv 8.13.0
+pkg:npm/ajv@8.13.0
+
+    ✗ MEDIUM CVE-2025-69873 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2025-69873?s=github&n=ajv&t=npm&vr=%3E%3D7.0.0-alpha.0%2C%3C8.18.0
+      Affected range : >=7.0.0-alpha.0                                                     
+                     : <8.18.0                                                             
+      Fixed version  : 8.18.0                                                              
+      CVSS Score     : 5.5                                                                 
+      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P 
+    
+
+   0C     0H     1M     0L  pixman 0.42.2-1build1
+pkg:deb/ubuntu/pixman@0.42.2-1build1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2023-37769
+      https://scout.docker.com/v/CVE-2023-37769?s=ubuntu&n=pixman&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     1M     0L  expat 2.6.1-2ubuntu0.4
+pkg:deb/ubuntu/expat@2.6.1-2ubuntu0.4?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-66382
+      https://scout.docker.com/v/CVE-2025-66382?s=ubuntu&n=expat&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     1M     0L  pam 1.5.3-5ubuntu5.5
+pkg:deb/ubuntu/pam@1.5.3-5ubuntu5.5?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-8941
+      https://scout.docker.com/v/CVE-2025-8941?s=ubuntu&n=pam&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     1M     0L  tar 1.35+dfsg-3build1
+pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ MEDIUM CVE-2025-45582
+      https://scout.docker.com/v/CVE-2025-45582?s=ubuntu&n=tar&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     3L  cairo 1.18.0-3build1
+pkg:deb/ubuntu/cairo@1.18.0-3build1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2019-6461
+      https://scout.docker.com/v/CVE-2019-6461?s=ubuntu&n=cairo&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2018-18064
+      https://scout.docker.com/v/CVE-2018-18064?s=ubuntu&n=cairo&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+    ✗ LOW CVE-2017-7475
+      https://scout.docker.com/v/CVE-2017-7475?s=ubuntu&n=cairo&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     0M     2L  poppler 24.02.0-1ubuntu9.8
+pkg:deb/ubuntu/poppler@24.02.0-1ubuntu9.8?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2019-9545
+      https://scout.docker.com/v/CVE-2019-9545?s=ubuntu&n=poppler&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+    ✗ LOW CVE-2019-9543
+      https://scout.docker.com/v/CVE-2019-9543?s=ubuntu&n=poppler&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 8.8                                          
+      CVSS Vector    : CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
+    
+
+   0C     0H     0M     1L  coreutils 9.4-3ubuntu6.1
+pkg:deb/ubuntu/coreutils@9.4-3ubuntu6.1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2016-2781
+      https://scout.docker.com/v/CVE-2016-2781?s=ubuntu&n=coreutils&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 6.5                                          
+      CVSS Vector    : CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N 
+    
+
+   0C     0H     0M     1L  harfbuzz 8.3.0-2build2
+pkg:deb/ubuntu/harfbuzz@8.3.0-2build2?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2026-22693
+      https://scout.docker.com/v/CVE-2026-22693?s=ubuntu&n=harfbuzz&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  icu 74.2-1ubuntu3.1
+pkg:deb/ubuntu/icu@74.2-1ubuntu3.1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2025-5222
+      https://scout.docker.com/v/CVE-2025-5222?s=ubuntu&n=icu&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  shadow 1:4.13+dfsg1-4ubuntu3.2
+pkg:deb/ubuntu/shadow@1%3A4.13%2Bdfsg1-4ubuntu3.2?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2024-56433
+      https://scout.docker.com/v/CVE-2024-56433?s=ubuntu&n=shadow&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  openexr 3.1.5-5.1build3
+pkg:deb/ubuntu/openexr@3.1.5-5.1build3?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2021-45942
+      https://scout.docker.com/v/CVE-2021-45942?s=ubuntu&n=openexr&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0                                          
+      Fixed version  : not fixed                                    
+      CVSS Score     : 5.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+    
+
+   0C     0H     0M     1L  tmp 0.0.33
+pkg:npm/tmp@0.0.33
+
+    ✗ LOW CVE-2025-54798 [Improper Link Resolution Before File Access ('Link Following')]
+      https://scout.docker.com/v/CVE-2025-54798?s=github&n=tmp&t=npm&vr=%3C%3D0.2.3
+      Affected range : <=0.2.3                                      
+      Fixed version  : 0.2.4                                        
+      CVSS Score     : 2.5                                          
+      CVSS Vector    : CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N 
+    
+
+   0C     0H     0M     1L  curl 8.5.0-2ubuntu10.7
+pkg:deb/ubuntu/curl@8.5.0-2ubuntu10.7?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2025-0167
+      https://scout.docker.com/v/CVE-2025-0167?s=ubuntu&n=curl&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+   0C     0H     0M     1L  libgcrypt20 1.10.3-2build1
+pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?os_distro=noble&os_name=ubuntu&os_version=24.04
+
+    ✗ LOW CVE-2024-2236
+      https://scout.docker.com/v/CVE-2024-2236?s=ubuntu&n=libgcrypt20&ns=ubuntu&t=deb&osn=ubuntu&osv=24.04&vr=%3E%3D0
+      Affected range : >=0       
+      Fixed version  : not fixed 
+    
+
+
+168 vulnerabilities found in 33 packages
+  CRITICAL  4   
+  HIGH      27  
+  MEDIUM    105 
+  LOW       32  
+
